@@ -3,8 +3,8 @@ Format the plots created by ROOT CERN and Provide some functions to set the Line
 
 ---
 
-ROOT Version: >6
-Platform: Win10/11,Ubuntu,WSL
+**ROOT Version**: >6
+**Platform**: Win10/11,Ubuntu,WSL
 
 ---
 
