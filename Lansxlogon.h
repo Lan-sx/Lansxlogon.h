@@ -7,7 +7,7 @@
  *                    2023.12.11 : Add some FormatXXX Functions
  *                    2024.03.03 : Add a function to insert logo
  *                    2024.03.09 : Add a function to move multi StatBoxes
- *                                 (Only for TH1)
+ *                                 (Only available for TH1)
  * ******************************************************************/
 
 //I need thick line for the frame and hist/functions
