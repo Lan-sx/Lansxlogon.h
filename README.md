@@ -1,5 +1,5 @@
 # Description 
-Format the plots created by ROOT CERN and Provide some functions to set the Line/Marker/ attributions
+Format the plots created by ROOT CERN and Provide some functions to set the Line/Marker/ attributions （one line of code）
 
 ---
 
