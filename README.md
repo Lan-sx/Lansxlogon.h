@@ -16,6 +16,6 @@ Format the plots created by ROOT CERN and Provide some functions to set the Line
    #include "Lansxlogon.h"
    void Plot()
    {
-     myStyle();
+       LansxFormat::myStyle();
    }
    ```
