@@ -8,6 +8,7 @@
  *                    2024.03.03 : Add a function to insert logo
  *                    2024.03.09 : Add a function to move multi StatBoxes
  *                                 (Only for TH1)
+ *                    2024.06.13 : Solve the multiple redefination bug 
  * ******************************************************************/
 
 //I need thick line for the frame and hist/functions
