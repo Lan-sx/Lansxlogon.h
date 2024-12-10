@@ -35,6 +35,7 @@
 #include "TCanvas.h"
 #include "TPad.h"
 #include "TH1.h"
+#include "TH2.h"
 #include "TPaveStats.h"
 
 class LansxFormat
@@ -192,6 +193,20 @@ public:
     }
 
     static void MoveStatBox(TH1* hist,int id,int color,double x1ndc,double x2ndc,double y1ndc,double y2ndc)
+    {
+        auto ps = dynamic_cast<TPaveStats*>(hist->FindObject("stats"));
+        if(!ps) 
+        {
+            std::printf("No stats obj found~ check canvas->Update()\n");
+            return;
+        }
+        ps->SetName(Form("stats%d",id));
+        ps->SetTextColor(color);
+        ps->SetX1NDC(x1ndc);ps->SetX2NDC(x2ndc);
+        ps->SetY1NDC(y1ndc);ps->SetY2NDC(y2ndc);
+    }
+
+    static void MoveStatBox(TH2* hist,int id,int color,double x1ndc,double x2ndc,double y1ndc,double y2ndc)
     {
         auto ps = dynamic_cast<TPaveStats*>(hist->FindObject("stats"));
         if(!ps) 
