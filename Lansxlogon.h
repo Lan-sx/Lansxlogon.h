@@ -275,6 +275,7 @@ public:
         myStyle->SetTextSize(0.03);
         myStyle->SetLabelFont(font,"xyz");
         myStyle->SetTitleFont(font,"xyz");
+        myStyle->SetTitleFont(font,"a"); // for title
         myStyle->SetLegendFont(font);
         myStyle->SetStatFont(font);
 
